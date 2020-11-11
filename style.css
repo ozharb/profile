@@ -34,12 +34,14 @@ h1 > span {
 }
 
 nav {
-  
+  display: flex;
   text-align: center;
   margin: 10px;
   padding: auto;
 }
-
+navv ul li {
+  justify-content: space-around;
+}
 .nav {
   
   margin: 20px;
