@@ -15,10 +15,13 @@
             <h1><span>Oz Harb</span></h1>
 
             <nav>
-                <a href="#about" class="nav">About</a>
-                <a href="#services" class="nav">Services</a>
-                <a href="#projects" class="nav">Projects</a>
-                <a href="#contact" class="nav">Contact</a>
+              <ul id ="menu">
+                
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
             </nav>
         
           </header>
@@ -103,7 +106,7 @@
 				<div class='item'>
           <img src="images/wofl-city.jpeg" alt="cartoon city" class="projects" width="300">
           <h4>Comic Book App</h4>
-					<p>This is a comic book app that lets you turn your photos into a comic book. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+					<p>This is a comic book app that lets you turn your photos into comic book. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
 				</div>
 			</div>
             </article>
@@ -117,7 +120,7 @@
   method="POST">
 
             	<div class="group">
-				<div class="item">
+				<div class="item form">
 
       <label>
     Your Name:
@@ -129,14 +132,26 @@
   </label>
   <label>
     Your message:
-    <textarea name="message"></textarea>
+    <textarea name="message" placeholder="What's up?"></textarea>
   </label>
-  </div>
+ </div>
             	</div>
+
+  <p>Fav Color:</p>
+ 
+      <input id="red" name="color" type="radio" value="red">
+       <label for="red">Red</label><br>
+      <input id="blue" name="color" type="radio" value="blue">
+       <label for="blue">Blue</label><br>
+      <input id="white" name="color" type="radio" value="white">
+       <label for="white">White</label><br>
+      <input id="other" name="color" type="radio" value="other">
+       <label for="other">Other</label><br>
    
   <!--  other form fields go here -->
 
   <button type="submit">Send</button>
+
 				
 </form>
             <p>Here are some other ways to reach me. Can't wait to chat.</p>
