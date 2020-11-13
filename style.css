@@ -186,7 +186,7 @@ form textarea {
 button {
   margin-top: 20px;
   margin-left: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 form input[type="radio"]+ label{ 
   display: inline;
@@ -196,7 +196,7 @@ form input[type="radio"]+ label{
 }
 .radio {
   
-  margin-left: 20px;
+  margin-left: 40px;
 }
 @media all and (min-width: 600px){
 
