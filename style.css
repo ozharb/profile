@@ -64,6 +64,13 @@ nav ul{
   padding-inline-start: 0;
 }
 
+ul {
+  
+  padding-left: 85px;
+}
+
+
+
 
 h2 {
   font-size: 20px;
@@ -186,7 +193,7 @@ form textarea {
 button {
   margin-top: 20px;
   margin-left: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 form input[type="radio"]+ label{ 
   display: inline;
@@ -196,9 +203,14 @@ form input[type="radio"]+ label{
 }
 .radio {
   
-  margin-left: 40px;
+  margin-left: 20px;
 }
 @media all and (min-width: 600px){
+  ul {
+
+  
+  padding-left: 30px;
+}
 
   h3 {
     font-size: 40px;
