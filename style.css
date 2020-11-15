@@ -205,6 +205,9 @@ form input[type="radio"]+ label{
   
   margin-left: 20px;
 }
+#projects .screenshot p{
+    text-align: center;
+  }
 @media all and (min-width: 600px){
   ul {
 
